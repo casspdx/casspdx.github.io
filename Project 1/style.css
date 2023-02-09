@@ -1,0 +1,38 @@
+* {box-sizing:border-box;}
+body {
+    margin:0;
+}
+img {width:100%;}
+nav {
+    height:100vh;
+    background:rgba(35, 22, 22, 1);
+    display:flex;
+}
+.link {
+    padding:40px;
+}
+nav > div {
+    flex:1;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items: flex-end;
+}
+nav > div:nth-child(1){
+    align-items: flex-start;
+    flex-direction:column;
+}
+nav a {
+    color:white;
+    text-decoration:none;
+}
+nav .card {
+    background:antiquewhite;
+    width:100%;
+    padding:20px;
+}
+
+.nineties { background: url('http://placekitten.com/300/1600') }
+.oughts{ background: url('http://placekitten.com/300/1601') }
+.tens{ background: url('http://placekitten.com/302/1600') }
+.twenties{ background: url('http://placekitten.com/300/1603') }
