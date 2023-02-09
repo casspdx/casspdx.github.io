@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: rgba(35, 22, 22, 1);
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  background: rgba(35, 22, 22, 1);
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  height: calc(100vh - 65px);
+  width: 100%;
+}
+h1 {
+  color: rgb(90, 77, 77);
+  font-size: 50px;
+}
+.link {
+  padding: 40px;
+}
+header {
+  display: flex;
+}
+header div {
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: flex;
+  align-items: flex-end;
+}
+div:nth-child(1) {
+  align-items: flex-start;
+  flex-direction: column;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+header .card {
+  background: antiquewhite;
+  width: 100%;
+  padding: 20px;
+}
+
+.nineties {
+  background: url('https://cdn-cf.ipsy.com/contentAsset/image/98d8b86e-c54c-4b50-a6fa-1702e5c690f0/fileAsset?byInode=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 100vh;
+}
+
+.oughts {
+  background: url('https://i.pinimg.com/564x/33/a7/51/33a7519edb8833f97d3a7d5eabe54d20.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 100vh;
+}
+.tens {
+  background: url('https://assets.vogue.in/photos/5ce3f330ad9a219b3fb3eab2/2:3/w_2560%2Cc_limit/Kylie-Jenner-Featured1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.twenties {
+  background: url('https://assets.vogue.com/photos/639b40e4be89488ac0bf870c/master/w_1600,c_limit/VOGUE_Y2K_02_224_V2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
