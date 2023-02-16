@@ -52,7 +52,7 @@ header .card {
 }
 
 .nineties {
-  background: url('https://cdn-cf.ipsy.com/contentAsset/image/98d8b86e-c54c-4b50-a6fa-1702e5c690f0/fileAsset?byInode=1');
+  background-color: rgb(23, 20, 20);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -67,7 +67,7 @@ header .card {
   min-height: 100vh;
 }
 .tens {
-  background: url('https://assets.vogue.in/photos/5ce3f330ad9a219b3fb3eab2/2:3/w_2560%2Cc_limit/Kylie-Jenner-Featured1.jpg');
+  background: url('https://www.breakfastwithaudrey.com.au//wp-content/myuploads//2017/07/d1efbd51743b57e9a30fa320c4776909.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
