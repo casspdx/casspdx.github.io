@@ -1,107 +1,142 @@
 body {
-    background: #fff0cb;
-    
-  }
-    
+  background: #fff0cb;
   
-  .sheesh {
+}
+  
+
+.sheesh {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  color: #ffa2dd;
+  font-size: 40px;
+  
+}
+
+
+
+  .button {
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-    color: #ffa2dd;
-    font-size: 40px;
-    
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color:#3C5141;
+    background-color: #ffa2dd;
+    border-radius: 30px;
+    outline: none;
+  }
+  .button1 {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #3C5141;
+    background-color: #ffa2dd;
+    border-radius: 30px;
+    outline: none;
   }
   
-  
-  
-    .button {
+  .button2 {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #3C5141;
+    background-color: #ffa2dd;
+    border-radius: 30px;
+    outline: none;
+  }
+
+  .button3 {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #3C5141;
+    background-color: #ffa2dd;
+    border-radius: 30px;
+    outline: none;
+  }
+
+  .logo {
+    width: 8%;
+    height: 5%;
+  }
+
+  .menufont {
       font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
       display: inline-block;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      color:#3C5141;
-      background-color: #ffa2dd;
-      border-radius: 30px;
-      outline: none;
-    }
-    .button1 {
-      font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-      display: inline-block;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      color: #3C5141;
-      background-color: #ffa2dd;
-      border-radius: 30px;
-      outline: none;
-    }
-    
-    .button2 {
-      font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-      display: inline-block;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      color: #3C5141;
-      background-color: #ffa2dd;
-      border-radius: 30px;
-      outline: none;
-    }
-  
-    .button3 {
-      font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-      display: inline-block;
-      padding: 10px 20px;
+      padding: 4px 8px;
       text-align: center;
       text-decoration: none;
       color: #3C5141;
       background-color: #ffa2dd;
-      border-radius: 30px;
+      border-radius: 20px;
       outline: none;
+  }
+  .menufont2 {
+      font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      color: #3C5141;
+      outline: none;
+  }
+  .menu-page {
+      background-color: antiquewhite;
+    }
+    .menu-layout {
+      width: 80%;
+      margin: auto;
+      display: flex;
+    }
+    .menu-layout div {
+      position: relative; /* tells absolutely positioned images how to place themselves in relation to the box they're in */
+      flex: 1;
+      background-color: white;
+      margin: 20px;
+      border-radius: 12px;
+      padding: 20px 40px; /* top-bottom, left-right */
+      box-shadow: 10px 10px 22px -5px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 10px 10px 22px -5px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 10px 10px 22px -5px rgba(0, 0, 0, 0.75);
+      /* shadow generator here: https://cssgenerator.org/box-shadow-css-generator.html */
+    }
+    .pure-tea-img {
+      position: absolute;
+      top: 70px;
+      right: 10px;
+      margin-top: 325px
+    }
+    .boba-layout {
+      display: flex;
+      background-color: white;
+      margin-top: 30px
+    }
+    .boba-layout div {
+      flex: 1;
+      padding: 10px;
+      text-align: center;
+    }
+    .scale-img {
+      transition: 500ms;
+    }
+    .scale-img:hover {
+      transform: scale(1.1);
+    }
+    .bobas-img {
+      width: 30%;
+      height: 50%
+    }
+    .honeyrose-img {
+      position: absolute;
+      top:70px;
+      right: 5px;
+      width: 55%;
+      height: 50%;
+      margin-top: 250px
     }
 
-    .menu-page {
-        background-color: antiquewhite;
-      }
-      .menu-layout {
-        width: 80%;
-        margin: auto;
-        display: flex;
-      }
-      .menu-layout div {
-        position: relative; /* tells absolutely positioned images how to place themselves in relation to the box they're in */
-        flex: 1;
-        background-color: white;
-        margin: 20px;
-        border-radius: 12px;
-        padding: 20px 40px; /* top-bottom, left-right */
-        box-shadow: 10px 10px 22px -5px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 10px 10px 22px -5px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 10px 10px 22px -5px rgba(0, 0, 0, 0.75);
-        /* shadow generator here: https://cssgenerator.org/box-shadow-css-generator.html */
-      }
-      .pure-tea-img {
-        position: absolute;
-        top: 70px;
-        right: 10px;
-      }
-      .boba-layout {
-        display: flex;
-        background-color: white;
-      }
-      .boba-layout div {
-        flex: 1;
-        padding: 10px;
-        text-align: center;
-      }
-      .scale-img {
-        transition: 500ms;
-      }
-      .scale-img:hover {
-        transform: scale(1.8);
-      }
-
-
-
-  
     
