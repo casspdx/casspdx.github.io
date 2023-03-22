@@ -61,8 +61,8 @@ body {
   }
 
   .logo {
-    width: 8%;
-    height: 5%;
+    width: 6%;
+    height: 3%;
   }
 
   .menufont {
@@ -108,7 +108,7 @@ body {
       position: absolute;
       top: 70px;
       right: 10px;
-      margin-top: 325px
+      margin-top: 300px
     }
     .boba-layout {
       display: flex;
@@ -128,7 +128,7 @@ body {
     }
     .bobas-img {
       width: 30%;
-      height: 50%
+      height: 40%
     }
     .honeyrose-img {
       position: absolute;
@@ -138,5 +138,10 @@ body {
       height: 27%;
       margin-top: 250px
     }
+
+.aboutus-page {
+  width: 20%;
+  height: 20%
+}
 
     
