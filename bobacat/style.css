@@ -1,5 +1,6 @@
 body {
   background: #fff0cb;
+  margin:0
   
 }
   
@@ -12,6 +13,25 @@ body {
 }
 
 
+.home-page nav{
+  display:flex;
+  justify-content:space-between;
+margin:50px auto 10px auto;
+width:80%;
+}
+nav a {
+  transform:500ms;
+  box-shadow: 4px 11px 25px -1px rgba(0,0,0,0.63);
+-webkit-box-shadow: 4px 11px 25px -1px rgba(0,0,0,0.63);
+-moz-box-shadow: 4px 11px 25px -1px rgba(0,0,0,0.63);
+}
+nav a:hover{
+transform:translateY(4px);
+box-shadow: 4px 11px 25px -5px rgba(0,0,0,0.63);
+-webkit-box-shadow: 4px 11px 25px -5px rgba(0,0,0,0.63);
+-moz-box-shadow: 4px 11px 25px -5px rgba(0,0,0,0.63);
+
+}
 
   .button {
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
@@ -106,9 +126,10 @@ body {
     }
     .pure-tea-img {
       position: absolute;
-      top: 70px;
-      right: 10px;
-      margin-top: 300px
+      bottom: 20px;
+      left: 45px;
+      margin-top: 300px;
+      width: 70%
     }
     .boba-layout {
       display: flex;
@@ -128,7 +149,7 @@ body {
     }
     .bobas-img {
       width: 30%;
-      height: 40%
+
     }
     .honeyrose-img {
       position: absolute;
@@ -136,12 +157,22 @@ body {
       right: 5px;
       width: 55%;
       height: 27%;
-      margin-top: 250px
+      margin-top: 250px;
+      z-index:0;
     }
 
 .aboutus-page {
   width: 20%;
-  height: 20%
+  height: 20%;
+}
+.container {
+  Background-image: url('https://cdn.pixabay.com/photo/2018/03/27/17/26/cat-3266675_960_720.jpg');
+  Background-size:cover;
+  height: 500px;
+  background-position:50% 10%;
 }
 
-    
+.logoabout {
+ width: 6%;
+height: 3%; 
+}
