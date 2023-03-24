@@ -246,6 +246,20 @@ height: 3%;
       right: 400px;
 }
 
+.bobacatgif2-img {
+  height: 200px;
+  position: absolute;
+      bottom: 15px;
+      left: 350px;
+}
+
+.rotate2-img:hover{
+  -webkit-transform: rotateZ(10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(10deg);
+  transition: 1s ease;
+}
+
 .scale2-img {
   transition: 1s ease;
 }
@@ -301,4 +315,28 @@ height: 3%;
   right: 450px;
   margin-top: 250px;
   width: 13%
+}
+
+.imagehover {
+  width: 120px;
+}
+
+.imagehover2 {
+  width: 100px;
+}
+
+.imagehover3 {
+  width: 180px;
+}
+
+.imagehover:hover {
+  background: #fff0cb;
+}
+
+.imagehover2:hover {
+  background: #fff0cb;
+}
+
+.imagehover3:hover {
+  background: #fff0cb;
 }
