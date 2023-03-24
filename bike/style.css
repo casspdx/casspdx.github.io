@@ -1,0 +1,22 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text align:center;
+}
+
+#hair{
+animation: hair 1s ease-in-out infinite alternate;
+}
+
+@keyframes hair{
+    from{
+transform: translateY(0%)
+    }
+    to{
+        transform: translateY(2%)
+ }
+}
