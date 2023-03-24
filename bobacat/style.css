@@ -257,8 +257,7 @@ height: 3%;
 }
 
 .containerorder {
-  Background-image: url('https://thumbs.gfycat.com/TidyMedicalAndalusianhorse-size_restricted.gif');
-  opacity: 0.5;
+  Background-image: url('https://s2.thingpic.com/images/S4/yZr6FWV45vXP25T4LPcu2vVZ.png');
   Background-size:cover;
   height: 500px;
   background-position:50% 10%;
@@ -274,4 +273,32 @@ height: 3%;
   color:#ffffff;
   border-radius: 10px;
   outline: none;
+}
+
+.ordernow1-img {
+  position: absolute;
+  size-adjust: 18px;
+  top: 220px;
+  margin-top: 100px;
+  width: 8%
+  
+}
+
+
+.ordernow2-img {
+  position: absolute;
+  size-adjust: 10px;
+  top: 180px;
+  right: 750px;
+  margin-top: 100px;
+  width: 6.8%
+}
+
+.ordernow3-img {
+  position: absolute;
+  size-adjust: 10px;
+  top: 60px;
+  right: 450px;
+  margin-top: 250px;
+  width: 13%
 }
