@@ -1,3 +1,4 @@
+
 body {
   background: #fff0cb;
   margin:0
@@ -6,7 +7,7 @@ body {
   
 
 .sheesh {
-  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-family: "Didot", sans-serif;
   color: #ffa2dd;
   font-size: 40px;
   
@@ -97,11 +98,11 @@ box-shadow: 4px 11px 25px -5px rgba(0,0,0,0.63);
       outline: none;
   }
   .menufont2 {
-      font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+      font-family: "Didot", sans-serif;
       display: inline-block;
       text-align: center;
       text-decoration: none;
-      color: #3C5141;
+      color: #ffa2dd;
       outline: none;
   }
   .menu-page {
@@ -165,7 +166,27 @@ box-shadow: 4px 11px 25px -5px rgba(0,0,0,0.63);
   width: 20%;
   height: 20%;
 }
+
+.aboutusfont1 {
+  font-family: "Didot", sans-serif;
+  font-size:50px;
+  display: inline-block;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffa2dd;
+  border-radius: 20px;
+  outline: none;
+}
+
 .container {
+  Background-image: url('https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2022/10/shutterstock_221315899-scaled-e1665713149352.jpg?resize=1536%2C801&ssl=1');
+  Background-size:cover;
+  height: 500px;
+  background-position:50% 10%;
+}
+
+.ordernow-page {
   Background-image: url('https://cdn.pixabay.com/photo/2018/03/27/17/26/cat-3266675_960_720.jpg');
   Background-size:cover;
   height: 500px;
@@ -175,4 +196,82 @@ box-shadow: 4px 11px 25px -5px rgba(0,0,0,0.63);
 .logoabout {
  width: 6%;
 height: 3%; 
+}
+
+.ordernow-font {
+  font-family: "Didot", sans-serif;
+  font-size: 50px;
+  display: inline-block;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffa2dd;
+  border-radius: 20px;
+  outline: none;
+}
+
+.contactfont {
+  font-family: "Didot", sans-serif;
+  font-size: 50px;
+  display: inline-block;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffa2dd;
+  border-radius: 20px;
+  outline: none;
+}
+
+.submitbutton {
+  font-family: "Didot",sans-serif;
+  display: inline-block;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  color:#ffffff;
+  background-color: #ffa2dd;
+  border-radius: 10px;
+  outline: none;
+}
+
+.messagebox {
+      height:300px;
+      font-size:14pt;
+  }
+
+.bobacatgif-img {
+  height: 200px;
+  position: absolute;
+      top: 90px;
+      right: 400px;
+}
+
+.scale2-img {
+  transition: 1s ease;
+}
+.rotate-img:hover{
+  -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  transform: rotateZ(-10deg);
+  transition: 1s ease;
+}
+
+.containerorder {
+  Background-image: url('https://thumbs.gfycat.com/TidyMedicalAndalusianhorse-size_restricted.gif');
+  opacity: 0.5;
+  Background-size:cover;
+  height: 500px;
+  background-position:50% 10%;
+}
+
+.ordernow-font {
+  font-family: "Didot",sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  color:#ffffff;
+  border-radius: 10px;
+  outline: none;
 }
