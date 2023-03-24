@@ -80,4 +80,10 @@ header .card {
   background-position: 50% 50%;
 }
 
+.scalemakeup-img {
+  transition: 500ms;
+}
+.scalemakeup-img:hover {
+  transform: scale(1.1);
+}
 
